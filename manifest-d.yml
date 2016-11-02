@@ -1,0 +1,8 @@
+
+---
+applications:
+- name: legacy-tomcat-app-d
+  buildpack: java_buildpack_offline
+  memory: 256m
+  instances: 1
+  path: target/hello-legacy-tomcat-1.0.war
